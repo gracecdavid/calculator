@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="calculator_tests.CalculatorTest-20240304214355" tests="1" file="calculator_tests.py" time="0.002" timestamp="2024-03-04T21:43:55" failures="0" errors="0" skipped="0">
+	<testcase classname="calculator_tests.CalculatorTest" name="test_addition" time="0.002" timestamp="2024-03-04T21:43:55"/>
+</testsuite>
