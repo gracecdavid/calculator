@@ -6,7 +6,7 @@ class Calculator:
         return a - b
 def main():
     calc = Calculator()
-    print("Enter two numbers:")
+    print("Enter two numbers")
     num1 = float(input("First number: "))
     num2 = float(input("Second number: "))
     print("1. Addition\n2. Subtraction")
