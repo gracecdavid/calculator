@@ -45,7 +45,7 @@ jobs:
           pip install pybuilder
      
       - name: Build and Test
-        run: calculator
+        run: pyb
 
       - name: Upload Test Results
         uses: actions/upload-artifact@v2
