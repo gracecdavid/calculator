@@ -45,6 +45,8 @@ def main():
     print("Enter two numbers:")
     sub_result = calc.sub(10, 5)
     print("Result:", sub_result)
+    sub_result = calc.sub(0,5)
+    print("Result:", sub_result)
 
 if __name__ == "__main__":
     main()
