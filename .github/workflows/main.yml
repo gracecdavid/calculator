@@ -41,7 +41,7 @@ jobs:
            
       - name: Install PyBuilder
         run: | 
-          python -i -m pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install pybuilder
      
       - name: Build and Test
