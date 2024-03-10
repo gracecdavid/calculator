@@ -1,4 +1,3 @@
-import sys
 """
 A simple calculator module.
 """
@@ -49,4 +48,3 @@ def main():
   
 if __name__ == "__main__":
     main()
-
