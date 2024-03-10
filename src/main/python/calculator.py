@@ -46,5 +46,5 @@ def main():
     result = calc.sub(10, 5)
     print("Result:", result)
 
-if __name__ == "__main__":
-    main()
+"""if __name__ == "__main__":
+    main() """
