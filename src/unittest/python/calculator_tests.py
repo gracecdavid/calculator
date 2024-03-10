@@ -13,6 +13,10 @@ class CalculatorTest(unittest.TestCase):
         calculator = Calculator()
         result = calculator.sub(5, 3)
         self.assertEqual(result, 2)
+    def test_positive_numbers(self):
+        calculator = Calculator()
+        self.assertEqual(calculator.add(2, 3), 5)  # Test with positive integers
+        self.assertEqual(calculator.add(5, 7), 12)  # Test with positive integers
 
 if __name__ == '__main__':
     unittest.main()
