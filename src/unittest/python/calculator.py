@@ -1,50 +1,17 @@
 """
-A simple calculator module.
+This is a simple module to demonstrate a hello world function in Python.
 """
 
-class Calculator:
+import sys
+
+def helloworld(out):
     """
-    A class representing a simple calculator.
+    Print a hello world message.
+
+    Args:
+        out: Output stream to write the message to.
     """
+    out.write("Hello world of Python\n")
 
-    def add(self, a, b):
-        """
-        Adds two numbers.
-
-        Args:
-            a (int): The first number.
-            b (int): The second number.
-
-        Returns:
-            int: The sum of the two numbers.
-        """
-        return a + b
-
-    def sub(self, a, b):
-        """
-        Subtracts one number from another.
-
-        Args:
-            a (int): The first number.
-            b (int): The second number.
-
-        Returns:
-            int: The result of subtracting the second number from the first.
-        """
-        return a - b
-
-def main():
-    """
-    Entry point of the program.
-    """
-    calc = Calculator()
-    print("Enter two numbers:")
-    add_result = calc.add(3, 5)
-    print("Result:", add_result)
-
-    print("Enter two numbers:")
-    sub_result = calc.sub(10, 5)
-    print("Result:", sub_result)
-
-if __name__ == "__main__":
-    main()
+# Call the function with a file object
+helloworld(sys.stdout)
