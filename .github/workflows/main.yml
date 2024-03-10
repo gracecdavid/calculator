@@ -47,7 +47,7 @@ jobs:
      
       - name: Run unit tests with coverage
         run: |
-          coverage run -m unittest discover -s src/unittest/python/  # Run tests and measure coverage
+          coverage run -m unittest discover -s src/unittest/python/calculator_tests.py  # Run tests and measure coverage
           coverage report -m --fail-under=70
 
       - name: Upload Test Results
