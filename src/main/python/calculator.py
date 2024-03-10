@@ -39,12 +39,12 @@ def main():
     """
     calc = Calculator()
     print("Enter two numbers:")
-    result = calc.add(3, 5)
-    print("Result:", result)
+    add_result = calc.add(3, 5)
+    print("Result:", add_result)
 
     print("Enter two numbers:")
-    result = calc.sub(10, 5)
-    print("Result:", result)
+    sub_result = calc.sub(10, 5)
+    print("Result:", sub_result)
 
-"""if __name__ == "__main__":
-    main() """
+if __name__ == "__main__":
+    main()
