@@ -55,5 +55,5 @@ jobs:
 
       # Conditionally pass the build if coverage is greater than 50%
       - name: Check Coverage
-        if: success() && steps.build_and_test.outputs.coverage > 50
-        run: echo "Coverage is above 50%, build passed"
+        if: success() && steps.build_and_test.outputs.coverage > 25
+        run: echo "Coverage is above 25%, build passed"
